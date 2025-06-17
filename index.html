@@ -10,10 +10,24 @@
         h1{
             background-color: rebeccapurple;
         }
+
+        a[href^="https"]{
+            color: blue;
+        }
+        a[href$=".in"]{
+            color: blueviolet;
+        }
+        a[href*="kart"]{
+            color: yellow;
+        }
     </style>
 </head>
 
 <body>
+    <!-- attribute selector apart form class id -->
+
+    <a href="http://google.com">Google</a>
+    <a href="https://flipkart.com.in">Flipkart</a>
     <h1>hello</h1>
     <h2 style="background-color: blueviolet;">hello</h2>
     <h3>hello</h3>
